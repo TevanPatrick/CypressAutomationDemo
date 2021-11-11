@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "tevan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.1.3",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^6.0.1"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}
